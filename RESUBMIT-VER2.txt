@@ -1,0 +1,4 @@
+﻿>> Boat.java -แก้- เปลี่ยนเป็น superclass โดยเปลี่ยนmethodต่างๆ ให้เป็น public
+>> OceanLiner.java -แก้- สร้างขึ้นเพื่อมาเป็น subclass ของ Boat มี method drawBody(), draw() และ move() จาก superclass แต่ทำงานไม่เหมือนกัน โดย drawBody(), draw() ใช้ในการวาดเรือเพราะเรือมีโครงสร้างไม่เหมือนกัน move() จะทำให้ object เคลื่อนที่ช้าๆ ที่ริมขอบฟ้าเสมือนในชีวิตที่พบเห็นไกลๆ
+>> CargoShip.java -แก้- สร้างขึ้นเพื่อมาเป็น subclass ของ Boat มี method drawBody(), draw() ทำงานไม่เหมือนกับ superclass เพราะเรือมีโครงสร้างไม่เหมือนกัน แต่ใช้ method move() จาก Boat() ใช้ในการเคลื่อนที่
+>> HomeController.java -แก้- ปรับปรุงแก้ไขโดยการเพิ่มออปเจ็กใหม่เข้าไป

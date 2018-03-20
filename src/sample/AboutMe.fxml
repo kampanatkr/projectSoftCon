@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="204.0" prefWidth="541.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" >
+   <children>
+      <Label fx:id="aboutTitle" layoutX="38.0" layoutY="1.0" prefHeight="203.0" prefWidth="463.0" text="จัดทำโดย&#10;นายกัมปนาท  เรืองบำรุง&#10;รหัสนิสิต 5810404871&#10;โครงงานนี้เป็นส่วนหนึ่งของวิชา 01418217 Software Construction&#10;" textAlignment="CENTER">
+         <font>
+            <Font name="Angsana New" size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
